@@ -1,0 +1,49 @@
+.flexbox {display: flex;}
+
+.card-1 {
+    border: solid lightgrey;
+    border-radius: 7px;
+    height: 220px;
+    width: 320px;
+    margin: 10px;
+    }
+    .card-2 {
+        border: solid lightgrey;
+        border-radius: 7px;
+        height: 220px;
+        width: 320px;
+        margin: 10px;
+        }
+
+.ca { 
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid lightgray;
+    }
+
+h3 {margin: 25px;}
+
+.ca p {margin: 0px 5px 15px 25px;}
+
+.bc {display: flex;}
+
+.b { 
+    border: solid lime;
+    border-radius: 5px 0px 0px 5px;
+    margin: 7px 0px 5px 12px;
+    padding: 10px 45px 10px 45px;
+
+    }
+
+.c {
+    border: solid red;
+    border-radius: 0px 5px 5px 0px;
+    margin: 7px 25px 5px 0px;
+    padding: 10px 45px 10px 45px;
+    }
+
+.ca p + p {color: rgb(90, 94, 86);}
+
+.ca  h3 + p {color: rgb(153, 141, 141);}
+
+.ca p>span {color: rgb(20, 20, 20);}
